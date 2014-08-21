@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Issue #327</title>
+    <%= javascript_include_tag "jquery", "application" %>
+    <%= stylesheet_link_tag "templates", media: "all" %>
+    <%= wicked_pdf_javascript_include_tag "number_pages" %>
+    <%= wicked_pdf_stylesheet_link_tag "templates", media: "all" %>
   </head>
   <body>
     <h1>layouts/templates.html.erb</h1>
