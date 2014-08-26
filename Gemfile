@@ -4,6 +4,7 @@ gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 gem 'twitter-bootstrap-rails'
 gem 'less-rails'
+gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
