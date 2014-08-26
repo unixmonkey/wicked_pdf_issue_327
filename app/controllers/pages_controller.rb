@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
   def issue_327
     respond_to do |format|
+      format.html
       format.pdf do
         render :pdf => 'oferta',
           :template => 'templates/show_offer.pdf.erb',
